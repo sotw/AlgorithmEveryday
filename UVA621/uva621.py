@@ -1,51 +1,59 @@
 import os, sys, math, array
 
-global PositiveArray
-global STATEDict
-PositiveArray = { 1:'1',2:'4',3:'78'}
 STATEDict = { 1:'+',2:'-',3:'*',4:'?'}
-
-def positiveString(n):
-    global PositiveArray
-    ret = {}
-    for x in list(PositiveArray.values()):
-        try:
-            pos = n.index(x)
-            ret[x] = pos
-        except ValueError:
-            continue
-    return ret
 
 def judge(n):
     global PositiveArray
     global STATEDict
     STATE = 4
-    length = len(n) -1 #exclude \n
-    RETS = positiveString(n)
-    for key, value in RETS.items():
-        if value == -1:
-            STATE=4
-        else:
-            STATE=1
-            startPos = value
-            endPos = value + (len(key)-1)
-            if  endPos+2 <= length-1 and n[endPos+1] == '3' and n[endPos+2] == '5':
-                STATE=2
-                break
-            elif endPos+1 <= length-1 and startPos-1 >= 0 and n[startPos-1] == '9' and n[endPos+1] == '4':
-                STATE=3
-                break
-            elif startPos-3 >= 0 and n[startPos-3] == '1' and n[startPos-2] == '9' and n[startPos-1] == '0':
-                STATE=4
-                break
+    length = len(n)
+    lastPos = length-1
+    flag=0
+    if n=='1' or n=='4' or n=='78' :
+        STATE = 1
+        flag = 1
+    
+    if flag == 0:
+        try:
+            spos = n.rfind('35')
+            if spos+1 == lastPos :
+                STATE = 2
+                flag = 1
+        except ValueError:
+            pass
+
+    if flag == 0:
+        try:
+            spos = n.index('9')
+            epos = n.rfind('4')
+            if spos == 0 and epos == lastPos:
+                STATE = 3
+                flag = 1
+        except ValueError:
+            pass
+    
+    if flag == 0:
+        try:
+            spos = n.index('190')
+            if spos == 0:
+                STATE = 4
+        except ValueError:
+            pass
+
     return STATEDict.get(STATE)
 
 def main():
     lineCnt = 0;
+    maxLine = 0;
     for line in sys.stdin:
         lineCnt+=1
-        if lineCnt > 1 : #skip unnecessary input
-            print(judge(line))
+        stripLine = line.strip('\n')
+        if lineCnt == 1:
+            maxLine = int(stripLine) + 1
+        elif maxLine < lineCnt:
+            exit(0)
+        elif lineCnt > 1 :
+            print(judge(stripLine))
 
 if __name__ == "__main__":
     main()
