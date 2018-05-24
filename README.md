@@ -7,4 +7,4 @@ S/N | Title | Comment
 [UVA621]|secret research|easy one, just get familiar with Python3  
 [UVA1124]|Celebrity jeopardy| well, what the..  
 [UVA1614]|Hell on Markets| Fun one, I took some time with this one
-
+[UVA10963]|The Swallowing Ground| Interesting question, but easy one, output format is annoying. Receving some presentation error mulitple times, not happy.:(
