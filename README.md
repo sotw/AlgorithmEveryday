@@ -7,7 +7,7 @@ But if I can't make my python3 code quick enough, I will go back to use C pluspl
 
 You are welcome to discuss with me. 
 
-Btw, after working in decade, I finnally realize algoritm and math is the core of problem. Well, it's true other topic is worthy to invest time. But alas. time is limited.  
+Btw, after working in decade, I finnally realize algorithm and math is the core of problem. Well, it's true other topic is worthy to invest time. But alas. time is limited.  
 
 S/N | Title | Comment | Python3 | C++
 ---|---|---|---|---
