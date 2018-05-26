@@ -50,10 +50,7 @@ def init():
     prime = []
     ans = [0]*10000
     erasto(10000)
-    #print(prime)
-    #print(prime)
     calRepresentation()
-    #print(ans)
 
 if __name__ == "__main__":
     init()
