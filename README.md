@@ -1,11 +1,13 @@
 ## AlgorithmEveryday
 
-I share the equal love about C plus plus and Python3.  
+I share equal love among C plus plus and Python3.  
 I tend to use python3 as my first priority to solve problem.  
 Because I need to make my algorithm quick enough to pass through the online test mechanism.  
 But if I can't make my python3 code quick enough, I will go back to use C plusplus, I don't really care about online ranking. Make python3 quick enough is good challenge for me enough.  
 
 You are welcome to discuss with me. 
+
+Btw, after working in decade, I finnally realize algoritm and math is the core of problem. Well, it's true other topic is worthy to invest time. But alas. time is limited.  
 
 S/N | Title | Comment | Python3 | C++
 ---|---|---|---|---
