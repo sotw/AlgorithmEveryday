@@ -19,3 +19,4 @@ S/N | Title | Comment | Python3 | C++
 [UVA10963]|The Swallowing Ground| Interesting question, but easy one, output format is annoying. Receving some presentation error mulitple times, not happy.:(|Y|
 [UVA369]|Combination|Basic is important, right?|Y|
 [UVA1210]|Sum of Consecutive Prime| Well, I had to admit, this one give me some trouble because I need to revive my math. You high school nerd won't understand. Only aging will make you understand what I am talking about. |Y|
+[UVA591]|Box of Bricks| Well, easy one. nothing to say|Y|
