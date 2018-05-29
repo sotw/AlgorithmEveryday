@@ -22,3 +22,4 @@ S/N | Title | Comment | Python3 | C++
 [UVA591]|Box of Bricks| Well, easy one. nothing to say|Y|
 [UVA900]|Brick Wall Patterns|er.. well, let's build the wall with stylish patterns.|Y||
 [UVA441]| Lotto | Backtracking, I make it more oo style|Y|
+[UVA642]| Word Amalgamation | use OO directly solve, it could be better|Y|
