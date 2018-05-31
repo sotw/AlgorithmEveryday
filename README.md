@@ -23,3 +23,4 @@ S/N | Title | Comment | Python3 | C++
 [UVA900]|Brick Wall Patterns|er.. well, let's build the wall with stylish patterns.|Y||
 [UVA441]| Lotto | Backtracking, I make it more oo style|Y|
 [UVA642]| Word Amalgamation | use OO directly solve, it could be better|Y|
+[UVA739]| Soundex Index | They said this one is easy but I find myself in little truble to print format and get confused by English grammer at first|Y|
