@@ -24,3 +24,4 @@ S/N | Title | Comment | Python3 | C++
 [UVA441]| Lotto | Backtracking, I make it more oo style|Y|
 [UVA642]| Word Amalgamation | use OO directly solve, it could be better|Y|
 [UVA739]| Soundex Index | They said this one is easy but I find myself in little truble to print format and get confused by English grammer at first|Y|
+[UVA218] | Moth Eradication | Took me a lot of time to revive math. Computing geometry is fun. IY|
